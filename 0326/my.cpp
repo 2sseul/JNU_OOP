@@ -3,8 +3,8 @@
 
 class Saram
 {
-	int iX;  //Ã¢ÀÚ
-	int iY;  //°£
+	int iX;  //ì°½ì
+	int iY;  //ê°„ 
 	int iAge;
 
 public:
@@ -17,7 +17,7 @@ public:
 		iY = b;
 		iAge = 23;
 	}
-	int Add() //½ÉÀå
+	int Add() //ì‹¬ì¥
 	{
 		Assign(2, 3);
 		return iX + iY;
@@ -32,5 +32,5 @@ void main()
 
 	int iResult = gildong.Add();
 	
-	printf("µÎ °³ÀÇ °ªÀ» ´õÇÑ °á°ú: %d\n", iResult);
+	printf("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½: %d\n", iResult);
 }
