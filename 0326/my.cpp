@@ -32,5 +32,5 @@ void main()
 
 	int iResult = gildong.Add();
 	
-	printf("�� ���� ���� ���� ���: %d\n", iResult);
+	printf("두 개의 값을 더한 결과: %d\n", iResult);
 }
